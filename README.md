@@ -1,4 +1,4 @@
-# <img src="app/src/main/res/mipmap-hdpi/ic_launcher.png" width="45" align="left"> Android Movies App
+# <img src="app/src/main/ic_launcher-web.png" width="45" align="left"> Android Movies App
 
 ## References
 
