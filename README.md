@@ -1,4 +1,4 @@
-# Android Movies App
+# <img src="app/src/main/ic_launcher-web.png" width="45" align="left"> Android Movies App
 
 ## References
 
@@ -6,6 +6,9 @@
 - [Why would I want to fitsSystemWindows?](https://medium.com/google-developers/why-would-i-want-to-fitssystemwindows-4e26d9ce1eec)
 - [ViewPager](http://www.thiengo.com.br/viewpager-no-android-entendendo-e-utilizando)
 - [Joda-Time](https://github.com/dlew/joda-time-android)
+- [Iconics](https://github.com/mikepenz/Android-Iconics)
+- [Icepick](https://github.com/frankiesardo/icepick)
+- [Butter Knife](https://github.com/JakeWharton/butterknife)
 
 **[Udacity Android Developer Nanodegree](https://udacity.com/course/android-developer-nanodegree--nd801/)**
 
