@@ -1,0 +1,7 @@
+<resources>
+    <!--
+        Get your TMDB API Key here:
+        https://www.themoviedb.org/documentation/api
+    -->
+    <string name="tmdb_api_key" translatable="false">YOUR_API_KEY</string>
+</resources>
