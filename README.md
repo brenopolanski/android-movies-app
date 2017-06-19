@@ -9,6 +9,8 @@
 - [Iconics](https://github.com/mikepenz/Android-Iconics)
 - [Icepick](https://github.com/frankiesardo/icepick)
 - [Butter Knife](https://github.com/JakeWharton/butterknife)
+- [EventBus](https://github.com/greenrobot/EventBus)
+- [ProviGen](https://github.com/TimotheeJeannin/ProviGen)
 
 **[Udacity Android Developer Nanodegree](https://udacity.com/course/android-developer-nanodegree--nd801/)**
 
