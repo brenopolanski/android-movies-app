@@ -1,5 +1,9 @@
 package com.brenopolanski.movies.provider;
 
+import android.content.Context;
+import android.database.sqlite.SQLiteOpenHelper;
+
+import com.tjeannin.provigen.ProviGenOpenHelper;
 import com.tjeannin.provigen.ProviGenProvider;
 
 /**
