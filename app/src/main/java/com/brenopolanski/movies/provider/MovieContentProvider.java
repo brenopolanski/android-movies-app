@@ -12,8 +12,8 @@ import com.tjeannin.provigen.ProviGenProvider;
 
 public class MovieContentProvider extends ProviGenProvider {
 
-    private static final String DB_NAME     = "movies";
-    private static final Class[] CONTRACTS  = new Class[]{
+    private static final String DB_NAME = "movies";
+    private static final Class[] CONTRACTS = new Class[]{
             MovieContract.class
     };
 

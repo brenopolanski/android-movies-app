@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -37,8 +36,8 @@
                     android:layout_gravity="center"
                     android:padding="20dp"
                     android:text="{gmd-play-arrow}"
-                    android:textSize="75sp"
-                    android:textColor="@android:color/black" />
+                    android:textColor="@android:color/black"
+                    android:textSize="75sp" />
 
                 <TextView
                     android:id="@+id/title"
@@ -46,8 +45,8 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="bottom"
                     android:padding="20dp"
-                    android:textSize="30sp"
                     android:textColor="@android:color/black"
+                    android:textSize="30sp"
                     android:textStyle="bold" />
 
             </FrameLayout>
@@ -55,8 +54,8 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:background="@color/colorAccent">
+                android:background="@color/colorAccent"
+                android:padding="10dp">
 
                 <TextView
                     android:id="@+id/release_date"
@@ -64,18 +63,18 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentStart="true"
                     android:layout_centerVertical="true"
-                    android:textColor="@android:color/white"
-                    android:textAppearance="@android:style/TextAppearance.Small" />
+                    android:textAppearance="@android:style/TextAppearance.Small"
+                    android:textColor="@android:color/white" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_toStartOf="@+id/rating"
-                    android:layout_marginTop="4dp"
                     android:layout_marginEnd="5dp"
-                    android:textColor="@android:color/white"
+                    android:layout_marginTop="4dp"
+                    android:layout_toStartOf="@+id/rating"
+                    android:text="{gmd-star}"
                     android:textAppearance="@android:style/TextAppearance.Large"
-                    android:text="{gmd-star}" />
+                    android:textColor="@android:color/white" />
 
                 <TextView
                     android:id="@+id/rating"
@@ -83,16 +82,16 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentEnd="true"
                     android:layout_centerVertical="true"
-                    android:textColor="@android:color/white"
-                    android:textAppearance="@android:style/TextAppearance.Large" />
+                    android:textAppearance="@android:style/TextAppearance.Large"
+                    android:textColor="@android:color/white" />
 
             </RelativeLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="@dimen/activity_padding"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:padding="@dimen/activity_padding">
 
                 <TextView
                     android:id="@+id/overview"
@@ -103,10 +102,10 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textAppearance="@android:style/TextAppearance.Large"
-                    android:layout_marginTop="20dp"
                     android:layout_marginBottom="10dp"
-                    android:text="@string/reviews" />
+                    android:layout_marginTop="20dp"
+                    android:text="@string/reviews"
+                    android:textAppearance="@android:style/TextAppearance.Large" />
 
                 <android.support.v7.widget.RecyclerView
                     android:id="@+id/reviews"
@@ -125,7 +124,7 @@
         android:id="@+id/favorite"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="@dimen/fab_margin"
-        android:layout_gravity="right|bottom|end" />
+        android:layout_gravity="right|bottom|end"
+        android:layout_margin="@dimen/fab_margin" />
 
 </FrameLayout>
