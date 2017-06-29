@@ -1,6 +1,6 @@
 package com.brenopolanski.movies.callback;
 
-import android.graphics.Movie;
+import com.brenopolanski.movies.model.Movie;
 
 import java.util.List;
 

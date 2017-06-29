@@ -14,6 +14,7 @@ public class Movie implements Serializable {
     private String overview;
     private String posterUrl;
     private String backdropUrl;
+    private String trailerUrl;
     private DateTime releaseDate;
     private float rating;
     private boolean adult;

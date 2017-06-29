@@ -9,6 +9,7 @@ import android.widget.ImageView;
 
 import com.brenopolanski.movies.R;
 import com.brenopolanski.movies.model.Movie;
+import com.bumptech.glide.Glide;
 
 import java.util.List;
 

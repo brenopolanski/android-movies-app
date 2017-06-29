@@ -1,5 +1,7 @@
 package com.brenopolanski.movies.callback;
 
+import com.brenopolanski.movies.model.Review;
+
 import java.util.List;
 
 /**

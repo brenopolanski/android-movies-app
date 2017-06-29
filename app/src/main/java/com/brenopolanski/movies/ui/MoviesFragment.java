@@ -14,15 +14,22 @@ import com.brenopolanski.movies.R;
 import com.brenopolanski.movies.callback.MoviesCallback;
 import com.brenopolanski.movies.event.ShowMovieEvent;
 import com.brenopolanski.movies.event.TwoPaneEvent;
+import com.brenopolanski.movies.event.UpdateFavoritesEvent;
+import com.brenopolanski.movies.model.Movie;
 import com.brenopolanski.movies.ui.adapter.MoviesAdapter;
+import com.brenopolanski.movies.util.MoviesUtil;
+import com.rohit.recycleritemclicksupport.RecyclerItemClickSupport;
 
 import org.greenrobot.eventbus.EventBus;
+import org.greenrobot.eventbus.Subscribe;
 
 import java.util.ArrayList;
+import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import icepick.Icepick;
+import icepick.State;
 
 /**
  * Created by brenopolanski on 28/06/17.

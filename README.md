@@ -11,6 +11,9 @@
 - [Butter Knife](https://github.com/JakeWharton/butterknife)
 - [EventBus](https://github.com/greenrobot/EventBus)
 - [ProviGen](https://github.com/TimotheeJeannin/ProviGen)
+- [DavidWebb](https://github.com/hgoebl/DavidWebb)
+- [Glide](https://github.com/bumptech/glide)
+- [RecyclerItemClickSupport](https://github.com/rohitshampur/RecyclerItemClickSupport)
 
 **[Udacity Android Developer Nanodegree](https://udacity.com/course/android-developer-nanodegree--nd801/)**
 

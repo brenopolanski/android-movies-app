@@ -6,22 +6,22 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
-import android.widget.FrameLayout;
 import android.widget.Toolbar;
 
 import com.brenopolanski.movies.R;
 import com.brenopolanski.movies.event.TwoPaneEvent;
+import com.brenopolanski.movies.util.Util;
 import com.google.common.eventbus.EventBus;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import clojure.lang.Util;
 
 /**
  * Created by brenopolanski on 15/06/17.
  */
 
 public class MainActivity extends BaseActivity {
+
     boolean twoPane;
 
     @BindView(R.id.toolbar)
@@ -30,8 +30,6 @@ public class MainActivity extends BaseActivity {
     TabLayout tabLayout;
     @BindView(R.id.movies)
     ViewPager moviesView;
-    @BindView(R.id.movie_detail)
-    FrameLayout movieDetail;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,7 +39,7 @@ public class MainActivity extends BaseActivity {
         setSupportActionBar(toolbar);
         Util.setupToolbar(this, toolbar);
 
-        if (movieDetail != null) {
+        if (findViewById(R.id.movie_detail) != null) {
             twoPane = true;
         }
 
@@ -58,13 +56,14 @@ public class MainActivity extends BaseActivity {
     }
 
     public class TabAdapter extends FragmentPagerAdapter {
+
         public TabAdapter(FragmentManager fm) {
             super(fm);
         }
 
         @Override
-        public Fragment getItem(int pos) {
-            switch (pos) {
+        public Fragment getItem(int position) {
+            switch (position) {
                 case 0:
                     return MoviesFragment.newInstance(MoviesFragment.Type.POPULAR, twoPane);
                 case 1:
@@ -77,8 +76,8 @@ public class MainActivity extends BaseActivity {
         }
 
         @Override
-        public CharSequence getPageTitle(int pos) {
-            switch (pos) {
+        public CharSequence getPageTitle(int position) {
+            switch (position) {
                 case 0:
                     return getString(R.string.popular);
                 case 1:

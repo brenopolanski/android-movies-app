@@ -6,9 +6,12 @@ import android.content.Context;
 import android.database.Cursor;
 import android.os.AsyncTask;
 
+import com.goebl.david.Webb;
+
 import com.brenopolanski.movies.R;
 import com.brenopolanski.movies.callback.MoviesCallback;
 import com.brenopolanski.movies.callback.ReviewsCallback;
+import com.brenopolanski.movies.model.Movie;
 import com.brenopolanski.movies.model.Review;
 import com.brenopolanski.movies.provider.MovieContract;
 
@@ -324,4 +327,5 @@ public class MoviesUtil {
             return "";
         }
     }
+
 }

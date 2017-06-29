@@ -1,6 +1,6 @@
 package com.brenopolanski.movies.event;
 
-import android.graphics.Movie;
+import com.brenopolanski.movies.model.Movie;
 
 /**
  * Created by brenopolanski on 16/06/17.

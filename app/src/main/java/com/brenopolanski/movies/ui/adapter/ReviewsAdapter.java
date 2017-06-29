@@ -9,12 +9,12 @@ import android.widget.TextView;
 
 import com.brenopolanski.movies.R;
 import com.brenopolanski.movies.model.Review;
+import com.brenopolanski.movies.util.Util;
 
 import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import clojure.lang.Util;
 
 /**
  * Created by brenopolanski on 28/06/17.

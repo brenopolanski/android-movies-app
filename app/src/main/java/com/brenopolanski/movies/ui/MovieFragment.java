@@ -14,20 +14,25 @@ import android.widget.TextView;
 import com.brenopolanski.movies.R;
 import com.brenopolanski.movies.callback.ReviewsCallback;
 import com.brenopolanski.movies.event.ShowMovieEvent;
+import com.brenopolanski.movies.event.UpdateFavoritesEvent;
+import com.brenopolanski.movies.model.Movie;
 import com.brenopolanski.movies.model.Review;
 import com.brenopolanski.movies.ui.adapter.ReviewsAdapter;
 import com.brenopolanski.movies.util.MoviesUtil;
+import com.brenopolanski.movies.util.Util;
+import com.bumptech.glide.Glide;
 import com.mikepenz.google_material_typeface_library.GoogleMaterial;
 import com.mikepenz.iconics.IconicsDrawable;
 
 import org.greenrobot.eventbus.EventBus;
+import org.greenrobot.eventbus.Subscribe;
 
 import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
-import clojure.lang.Util;
+import icepick.State;
 
 /**
  * Created by brenopolanski on 28/06/17.
