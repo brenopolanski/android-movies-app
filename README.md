@@ -10,9 +10,12 @@
 
 ### Tablet
 
-| <img width="250" height="444" src="./demo/tablet-1.png"> | <img width="250" height="444" src="./demo/tablet-2.png"> | <img width="250" height="444" src="./demo/tablet-3.png"> | <img width="250" height="444" src="./demo/tablet-4.png"> |
+| <img width="350" height="263" src="./demo/tablet-1.png"> | <img width="350" height="263" src="./demo/tablet-2.png"> | <img width="350" height="263" src="./demo/tablet-3.png"> | <img width="350" height="263" src="./demo/tablet-4.png"> |
 | :---: | :---: | :---: | :---: |
 | Popular | Popular Details | Top Rated | Favorites Details |
+| <img width="350" height="263" src="./demo/tablet-3.png"> | <img width="350" height="263" src="./demo/tablet-4.png"> |
+| :---: | :---: |
+| Top Rated | Favorites Details |
 
 ## References
 
