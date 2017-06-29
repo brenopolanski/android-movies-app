@@ -13,11 +13,8 @@ import com.mikepenz.iconics.IconicsDrawable;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-/**
- * Created by brenopolanski on 28/06/17.
- */
-
 public class MovieActivity extends BaseActivity {
+
     private MovieFragment movieFrag;
 
     @BindView(R.id.toolbar)
@@ -42,7 +39,6 @@ public class MovieActivity extends BaseActivity {
                         .icon(GoogleMaterial.Icon.gmd_share)
                         .color(Color.BLACK)
                         .sizeDp(24));
-
         return true;
     }
 
@@ -58,7 +54,6 @@ public class MovieActivity extends BaseActivity {
                 }
                 break;
         }
-
         return true;
     }
 

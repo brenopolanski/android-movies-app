@@ -1,6 +1,6 @@
 <resources>
     <!--
-        Get your TMDB API Key here:
+        Grab your TMDB API Key here:
         https://www.themoviedb.org/documentation/api
     -->
     <string name="tmdb_api_key" translatable="false">003147afa5c3e0f182ea6e8d9c347257</string>

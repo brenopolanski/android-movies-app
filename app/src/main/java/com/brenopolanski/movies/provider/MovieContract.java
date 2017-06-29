@@ -6,10 +6,6 @@ import com.tjeannin.provigen.ProviGenBaseContract;
 import com.tjeannin.provigen.annotation.Column;
 import com.tjeannin.provigen.annotation.ContentUri;
 
-/**
- * Created by brenopolanski on 16/06/17.
- */
-
 public class MovieContract implements ProviGenBaseContract {
 
     @ContentUri

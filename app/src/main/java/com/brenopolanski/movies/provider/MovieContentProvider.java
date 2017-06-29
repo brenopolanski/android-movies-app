@@ -6,10 +6,6 @@ import android.database.sqlite.SQLiteOpenHelper;
 import com.tjeannin.provigen.ProviGenOpenHelper;
 import com.tjeannin.provigen.ProviGenProvider;
 
-/**
- * Created by brenopolanski on 16/06/17.
- */
-
 public class MovieContentProvider extends ProviGenProvider {
 
     private static final String DB_NAME = "movies";
@@ -24,6 +20,7 @@ public class MovieContentProvider extends ProviGenProvider {
 
     @Override
     public Class[] contractClasses() {
+
         return CONTRACTS;
     }
 }

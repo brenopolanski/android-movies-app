@@ -6,10 +6,6 @@ import android.support.v4.app.Fragment;
 import butterknife.Unbinder;
 import icepick.Icepick;
 
-/**
- * Created by brenopolanski on 28/06/17.
- */
-
 public abstract class BaseFragment extends Fragment {
     protected Unbinder unbinder;
 

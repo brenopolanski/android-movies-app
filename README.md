@@ -1,5 +1,19 @@
 # <img src="app/src/main/ic_launcher-web.png" width="45" align="left"> Android Movies App
 
+## Screenshots
+
+### Mobile
+
+| <img width="250" height="444" src="./demo/mobile-1.png"> | <img width="250" height="444" src="./demo/mobile-2.png"> | <img width="250" height="444" src="./demo/mobile-3.png"> | <img width="250" height="444" src="./demo/mobile-4.png"> |
+| :---: | :---: | :---: | :---: |
+| Popular | Top Rated | Favorites | Film Details |
+
+### Tablet
+
+| <img width="250" height="444" src="./demo/tablet-1.png"> | <img width="250" height="444" src="./demo/tablet-2.png"> | <img width="250" height="444" src="./demo/tablet-3.png"> | <img width="250" height="444" src="./demo/tablet-4.png"> |
+| :---: | :---: | :---: | :---: |
+| Popular | Popular Details | Top Rated | Favorites Details |
+
 ## References
 
 - [TMDB API Key](https://www.themoviedb.org/documentation/api)

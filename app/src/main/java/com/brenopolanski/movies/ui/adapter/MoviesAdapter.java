@@ -16,11 +16,8 @@ import java.util.List;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-/**
- * Created by brenopolanski on 28/06/17.
- */
-
 public class MoviesAdapter extends RecyclerView.Adapter<MoviesAdapter.ViewHolder> {
+
     private Context context;
     private List<Movie> movies;
 

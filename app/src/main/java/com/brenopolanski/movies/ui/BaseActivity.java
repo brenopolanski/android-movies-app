@@ -8,10 +8,6 @@ import com.mikepenz.iconics.context.IconicsLayoutInflater;
 
 import icepick.Icepick;
 
-/**
- * Created by brenopolanski on 16/06/17.
- */
-
 public abstract class BaseActivity extends AppCompatActivity {
 
     @Override
@@ -28,4 +24,5 @@ public abstract class BaseActivity extends AppCompatActivity {
     }
 
     protected abstract void init();
+
 }

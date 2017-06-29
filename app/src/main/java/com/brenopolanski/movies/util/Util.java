@@ -21,11 +21,8 @@ import org.joda.time.format.DateTimeFormat;
 
 import java.lang.reflect.Field;
 
-/**
- * Created by brenopolanski on 28/06/17.
- */
-
 public class Util {
+
     private static ConnectivityManager connectivityManager;
 
     public static boolean isEmpty(String str) {
@@ -93,4 +90,5 @@ public class Util {
         Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(link));
         context.startActivity(intent);
     }
+
 }

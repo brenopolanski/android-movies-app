@@ -31,10 +31,6 @@ import butterknife.ButterKnife;
 import icepick.Icepick;
 import icepick.State;
 
-/**
- * Created by brenopolanski on 28/06/17.
- */
-
 public class MoviesFragment extends BaseFragment implements SwipeRefreshLayout.OnRefreshListener,
         RecyclerItemClickSupport.OnItemClickListener {
     private static final String ARG_FRAG_TYPE = "fragType";

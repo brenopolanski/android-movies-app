@@ -11,14 +11,11 @@ import android.support.v7.widget.Toolbar;
 import com.brenopolanski.movies.R;
 import com.brenopolanski.movies.event.TwoPaneEvent;
 import com.brenopolanski.movies.util.Util;
+
 import org.greenrobot.eventbus.EventBus;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-
-/**
- * Created by brenopolanski on 15/06/17.
- */
 
 public class MainActivity extends BaseActivity {
 

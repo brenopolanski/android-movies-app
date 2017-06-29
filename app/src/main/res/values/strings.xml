@@ -3,9 +3,9 @@
     <string name="popular">Popular</string>
     <string name="top_rated">Top Rated</string>
     <string name="favorites">Favorites</string>
-    <string name="conn_internet">Connect to Internet</string>
+    <string name="conn_internet">Connect to internet</string>
     <string name="share">Share</string>
     <string name="reviews">Reviews</string>
     <string name="review_by">Review by %1$s</string>
-    <string name="no_review_found">No Review Found</string>
+    <string name="no_review_found">No review found</string>
 </resources>

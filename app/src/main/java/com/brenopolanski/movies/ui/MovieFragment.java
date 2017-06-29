@@ -34,10 +34,6 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 import icepick.State;
 
-/**
- * Created by brenopolanski on 28/06/17.
- */
-
 public class MovieFragment extends BaseFragment {
 
     @State

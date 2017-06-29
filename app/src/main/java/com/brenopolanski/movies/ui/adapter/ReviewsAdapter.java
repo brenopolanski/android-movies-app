@@ -16,11 +16,8 @@ import java.util.List;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-/**
- * Created by brenopolanski on 28/06/17.
- */
-
 public class ReviewsAdapter extends RecyclerView.Adapter<ReviewsAdapter.ViewHolder> {
+
     private Context context;
     private List<Review> reviews;
 
