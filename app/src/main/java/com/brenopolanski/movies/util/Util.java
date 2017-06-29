@@ -75,7 +75,7 @@ public class Util {
             activity.runOnUiThread(new Runnable() {
                 @Override
                 public void run() {
-                    Toast.makeText(activity, R.string.connect_internet, Toast.LENGTH_SHORT).show();
+                    Toast.makeText(activity, R.string.conn_internet, Toast.LENGTH_SHORT).show();
                 }
             });
         }

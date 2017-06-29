@@ -164,7 +164,7 @@ public class MoviesUtil {
             });
         } else {
             Review review = new Review();
-            review.setContent(activity.getString(R.string.connect_internet));
+            review.setContent(activity.getString(R.string.conn_internet));
             final List<Review> reviews = new ArrayList<>();
             reviews.add(review);
             activity.runOnUiThread(new Runnable() {

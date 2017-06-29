@@ -6,12 +6,12 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
-import android.widget.Toolbar;
+import android.support.v7.widget.Toolbar;
 
 import com.brenopolanski.movies.R;
 import com.brenopolanski.movies.event.TwoPaneEvent;
 import com.brenopolanski.movies.util.Util;
-import com.google.common.eventbus.EventBus;
+import org.greenrobot.eventbus.EventBus;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
