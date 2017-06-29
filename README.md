@@ -18,6 +18,12 @@
 | :---: | :---: |
 | Top Rated Details | Favorite Details |
 
+## Getting Started
+
+Create your TMDB API Key here: https://www.themoviedb.org/documentation/api
+
+Modify the file `res/values/keys.xml` with the value of your API Key.
+
 ## References
 
 - [TMDB API Key](https://www.themoviedb.org/documentation/api)
@@ -44,3 +50,7 @@
 
 - [Iconfinder](https://www.iconfinder.com/icons/1055007/movie_play_video_icon#size=256)
 - [Google Font Marck Script](https://fonts.google.com/specimen/Marck+Script)
+
+## License
+
+[MIT License](http://brenopolanski.mit-license.org/) © Breno Polanski
