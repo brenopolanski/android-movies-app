@@ -10,6 +10,7 @@ import android.widget.FrameLayout;
 import android.widget.Toolbar;
 
 import com.brenopolanski.movies.R;
+import com.brenopolanski.movies.event.TwoPaneEvent;
 import com.google.common.eventbus.EventBus;
 
 import butterknife.BindView;
@@ -21,7 +22,6 @@ import clojure.lang.Util;
  */
 
 public class MainActivity extends BaseActivity {
-
     boolean twoPane;
 
     @BindView(R.id.toolbar)

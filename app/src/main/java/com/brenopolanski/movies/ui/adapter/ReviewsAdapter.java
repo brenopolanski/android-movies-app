@@ -21,7 +21,6 @@ import clojure.lang.Util;
  */
 
 public class ReviewsAdapter extends RecyclerView.Adapter<ReviewsAdapter.ViewHolder> {
-
     private Context context;
     private List<Review> reviews;
 

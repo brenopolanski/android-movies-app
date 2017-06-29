@@ -17,7 +17,6 @@ import butterknife.ButterKnife;
  */
 
 public class MovieActivity extends BaseActivity {
-
     private MovieFragment movieFrag;
 
     @BindView(R.id.toolbar)

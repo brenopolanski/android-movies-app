@@ -23,7 +23,6 @@ import org.joda.time.format.DateTimeFormat;
  */
 
 public class Util {
-
     private static ConnectivityManager connectivityManager;
 
     public static boolean isEmpty(String str) {
@@ -91,5 +90,4 @@ public class Util {
         Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(link));
         context.startActivity(intent);
     }
-
 }
