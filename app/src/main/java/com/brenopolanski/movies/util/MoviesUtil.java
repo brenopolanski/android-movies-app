@@ -6,14 +6,13 @@ import android.content.Context;
 import android.database.Cursor;
 import android.os.AsyncTask;
 
-import com.goebl.david.Webb;
-
 import com.brenopolanski.movies.R;
 import com.brenopolanski.movies.callback.MoviesCallback;
 import com.brenopolanski.movies.callback.ReviewsCallback;
 import com.brenopolanski.movies.model.Movie;
 import com.brenopolanski.movies.model.Review;
 import com.brenopolanski.movies.provider.MovieContract;
+import com.goebl.david.Webb;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -21,10 +20,6 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.List;
-
-/**
- * Created by brenopolanski on 28/06/17.
- */
 
 public class MoviesUtil {
     private static final Webb WEBB = Webb.create();
