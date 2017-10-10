@@ -1,5 +1,7 @@
 # <img src="app/src/main/ic_launcher-web.png" width="45" align="left"> Android Movies App
 
+> Android app to list popular and top rated movies from [The Movie Database](https://www.themoviedb.org/).
+
 ## Screenshots
 
 ### Mobile
