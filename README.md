@@ -40,6 +40,7 @@ Modify the file `res/values/keys.xml` with the value of your API Key.
 - [DavidWebb](https://github.com/hgoebl/DavidWebb)
 - [Glide](https://github.com/bumptech/glide)
 - [RecyclerItemClickSupport](https://github.com/rohitshampur/RecyclerItemClickSupport)
+- [Robotium](https://github.com/RobotiumTech/robotium)
 
 **[Udacity Android Developer Nanodegree](https://udacity.com/course/android-developer-nanodegree--nd801/)**
 
