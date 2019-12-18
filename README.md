@@ -56,4 +56,4 @@ Modify the file `res/values/keys.xml` with the value of your API Key.
 
 ## License
 
-[MIT License](http://brenopolanski.mit-license.org/) © Breno Polanski
+[MIT License](https://brenopolanski.mit-license.org/) © Breno Polanski
